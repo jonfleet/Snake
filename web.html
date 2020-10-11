@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset='utf8'>
+    <title>Snake</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body> 
+    
+    <div class="container">
+        
+        <div class="gameboard">
+            <canvas class="canvas" width="800" height="800"></canvas>
+            <div class="startScreen">
+                <h1>Welcome to Snake!</h1>
+                <h1>Use the Arrow Keys to move the Snake.</h1>
+                <span><button id="start">Begin</button></span>
+            </div>
+        </div>            
+        <div class="appear">
+                <span>Score: <span id="score">0</span></span>
+                <div>
+                    <button id="restart" style="margin: 30px;">Restart</button>
+                </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="snake.js"></script>
+<script type="text/javascript" src="fruit.js"></script>
+<script type="text/javascript" src="draw.js"></script>
+
+</html>
